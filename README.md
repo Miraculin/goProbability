@@ -1,7 +1,8 @@
 TODO:  
 -add example  
--Geometric distribution  
 -Negative binomial distribution  
+    -tests
+    -replace stubs
 -Poisson distribution  
 -Hypergeometric distribution  
--Discrete distribution  
+-add godoc
