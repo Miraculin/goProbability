@@ -15,7 +15,7 @@ func TestBinomial(t *testing.T) {
 		t.Errorf("No error should've been produced")
 	}
 	if !float64equals(.02120301528515625, a) {
-		t.Errorf("Wrong answer produced: %v, Expected 0.0.021203", a)
+		t.Errorf("Wrong answer produced: %v, Expected 0.021203", a)
 	}
 	b, err := x.Prob(0)
 	if !float64equals(b, math.Pow(0.35, float64(10))) {
