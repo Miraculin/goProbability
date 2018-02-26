@@ -5,4 +5,3 @@ TODO:
 -Poisson distribution  
 -Hypergeometric distribution  
 -Discrete distribution  
--add tests  
