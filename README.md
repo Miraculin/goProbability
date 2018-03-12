@@ -1,8 +1,6 @@
 TODO:  
 -add example  
--Negative binomial distribution  
-    -tests
-    -replace stubs
--Poisson distribution  
--Hypergeometric distribution  
--add godoc
+-tests
+    -Negative binomial distribution  
+    -Poisson distribution  
+    -Hypergeometric distribution  
