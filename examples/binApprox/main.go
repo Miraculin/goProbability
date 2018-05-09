@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 
 	goProb "github.com/Miraculin/goProbability"
 )
@@ -37,6 +38,6 @@ func main() {
 }
 
 func percentageDifference(x, y float64) float64 {
-	ret := (x - y) / ((x + y) / 2.0) * 100
+	ret := math.Abs((x - y) / ((x + y) / 2.0) * 100)
 	return ret
 }
