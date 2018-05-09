@@ -9,5 +9,6 @@ func (e probError) Error() string {
 }
 
 var (
-	InvalidInput = probError{"Invalid Input"}
+	InvalidInput   = probError{"Invalid input"}
+	NumberTooLarge = probError{"Number too large "}
 )
